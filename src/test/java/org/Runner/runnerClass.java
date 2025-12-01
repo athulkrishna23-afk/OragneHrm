@@ -8,12 +8,11 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features ="C:\\Users\\Athul krishna\\eclipse-workspace\\mavenPractive\\src\\test\\resources\\features\\orangelogin.feature",
+@CucumberOptions(features ="C:\\Automation\\OragneHrm\\src\\test\\resources\\features\\createOrder.feature",
 glue= {"org.stepdefinition"},
+//plugin= {"pretty","html:target/cucumber-report/cucumber.html","json:target/cucumber-report/cucumber.json"},
 dryRun=false)
 
 public class runnerClass {
 	
-	
-
 }
